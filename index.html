@@ -7,40 +7,49 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <title>Svetlana Demkovich</title>
+    <title>Svetlana Demkovich: Home Page</title>
 </head>
 
 <body>
-    <!-- <div class="background-image"> -->
-        <!-- Start Nav -->
-        <nav class="navbar navbar-expand-lg pr-md-3 pl-md-3 navbar-light bg-light">
-            <a class="navbar-brand" href="home.html">Svetlana Demkovich</a>
-            <!-- <span class="navbar-brand mb-1 h1">Svetlana Demkovich</span> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav navbar-right ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- End Nav -->
-        <div class="container">
+    <!-- <section class="container" id="home">  -->
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg pr-md-3 pl-md-3 navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">Svetlana Demkovich</a>
+        <!-- <span class="navbar-brand mb-1"></span> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <img src="Assets/Images/DSC_2833.jpg" alt="Smiley face">  -->
+    </section>
+    <!-- End Nav -->
+  <!-- <section> -->
+      <div class="container" id="homepage">
+        <img src="./Assets/Images/Sveta.jpg" alt="Sveta" class="img-thumbnail">
 
-            <div class="row">
-                <div class="col-12 col-md-9 About-section">
+      </div>
+  <!-- </section> -->
+
+    <!-- About -->
+    <!-- <section> -->
+        <div class="container" id="About">
+            <!-- <div class="row">
+                <div class="col-12 About-section"> -->
                     <div class="page-header">About Me</div>
-                    <img src="./Assets/Images/Sveta.jpg" alt="Sveta" class="img-thumbnail" ALIGN="left">
                     <p>
                         My name is Svetlana (Sveta) Demkovich. I was born and raised in Uzbekistan.
                         In 1992 my family decided to relocate to Belarus, my father's motherland,
@@ -61,15 +70,40 @@
                         and study Web development. I'm hopefull to sucseed in this field as well as I sucseed in
                         accounting.
                     </p>
+                <!-- </div>
+            </div> -->
+        </div>
+    <!-- </section> -->
+    <br>
+    <!-- Portfolio  -->
+    <section>
+        <div class="container" id="Portfolio">
+            <div class="row">
+                <div class="col-12 About-section">
+                    <div class="page-header">Portfolio</div>
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="./Assets/Images/Image1.jpg" alt="Image1" class="image">
+                        </div>
+                        <div class="col-12">
+                            <img src="./Assets/Images/Image2.jpg" alt="Image2" class="image">
+                        </div>
+                        <div class="col-12">
+                            <img src="./Assets/Images/Image3.jpg" alt="Image3" class="image">
+                        </div>
+                        <div class="col-12 ">
+                            <img src="./Assets/Images/Image4.jpg" alt="Image4" class="image">
+                        </div>
+                        <div class="col-12 ">
+                            <img src="./Assets/Images/Image5.jpeg" alt="Image5" class="image">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    <!-- </div> -->
-    <div class="footer">
-        <p>
-            &copy; Copyright
-        </p>
-    </div>
+    </section>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
