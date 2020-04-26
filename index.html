@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Assets/css/style.css">
     <title>Svetlana Demkovich: Home Page</title>
 </head>
 
 <body>
-    <!-- <section class="container" id="home">  -->
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg pr-md-3 pl-md-3 navbar-light bg-light">
-        <a class="navbar-brand" href="home.html">Svetlana Demkovich</a>
-        <!-- <span class="navbar-brand mb-1"></span> -->
+    <nav class="navbar sticky-top navbar-expand-lg pr-md-3 pl-md-3 navbar-light bg-light">
+        <a class="navbar-brand" href="#homepage">Svetlana Demkovich</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,32 +26,36 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav navbar-right ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#About">About</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <!-- <img src="Assets/Images/DSC_2833.jpg" alt="Smiley face">  -->
-    </section>
     <!-- End Nav -->
-  <!-- <section> -->
-      <div class="container" id="homepage">
-        <img src="./Assets/Images/Sveta.jpg" alt="Sveta" class="img-thumbnail">
-
-      </div>
-  <!-- </section> -->
+    <!-- Jumbothron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container" id="homepage">
+            <div class="row">
+                <div class="col-12 md-4">
+                    <img src="./Assets/Images/Sveta.jpg" alt="Sveta" class="img-thumbnail">
+                    <p>Svetlana Demkovich</p>
+                    <p>Full Stack Web Developer Student at UW Bootcamp 2020 Class</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- About -->
-    <!-- <section> -->
-        <div class="container" id="About">
-            <!-- <div class="row">
-                <div class="col-12 About-section"> -->
+    <section>
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-12 About-section">
                     <div class="page-header">About Me</div>
                     <p>
                         My name is Svetlana (Sveta) Demkovich. I was born and raised in Uzbekistan.
@@ -70,39 +77,70 @@
                         and study Web development. I'm hopefull to sucseed in this field as well as I sucseed in
                         accounting.
                     </p>
-                <!-- </div>
-            </div> -->
+                </div>
+            </div>
         </div>
-    <!-- </section> -->
+    </section>
     <br>
     <!-- Portfolio  -->
     <section>
-        <div class="container" id="Portfolio">
+        <div class="container" id="portfolio">
             <div class="row">
                 <div class="col-12 About-section">
                     <div class="page-header">Portfolio</div>
                     <div class="row">
-                        <div class="col-12">
-                            <img src="./Assets/Images/Image1.jpg" alt="Image1" class="image">
+                        <div class="col-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./Assets/Images/Recipe Master.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Recipe Master</h5>
+                                    <p class="card-text">As a user, I want to make meals with the food I have at home,
+                                        so that I can save money, reduce waste, and eat healthy.</p>
+                                    <a href="https://github.com/sdemkovich/Recipe-Master" target="_blank"
+                                        class="btn btn-outline-info" data-toggle="tooltip"
+                                        title="View Source!"><i class="fas fa-fw fa-2x fa-external-link-alt"></i></a>
+                                    <a href="https://sdemkovich.github.io/Recipe-Master/" target="_blank"
+                                        class="btn btn-outline-info" data-toggle="tooltip"
+                                        title="View Online!">
+                                        <i class="fab fa-fw fa-2x fa-github"></i></a>
+
+                                </div>
+                            </div>
+                            <!-- <img src="./Assets/Images/Image1.jpg" alt="Image1" class="image"> -->
                         </div>
-                        <div class="col-12">
+                        <div class="col-12col-md-4">
                             <img src="./Assets/Images/Image2.jpg" alt="Image2" class="image">
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 col-md-4">
                             <img src="./Assets/Images/Image3.jpg" alt="Image3" class="image">
                         </div>
-                        <div class="col-12 ">
-                            <img src="./Assets/Images/Image4.jpg" alt="Image4" class="image">
-                        </div>
-                        <div class="col-12 ">
-                            <img src="./Assets/Images/Image5.jpeg" alt="Image5" class="image">
-                        </div>
+
                     </div>
                 </div>
             </div>
     </section>
+    <br>
+    <!-- Contact -->
+    <section>
+        <div class="container" id="contact">
+            <h4>Contact me:</h4>
+            <!-- <p>Phone: 347-420-7866</p> -->
+            <a href="mailto:svetlana.demkovich@gmail.com"><i class="fas fa-fw fa-2x fa-envelope-square"></i></a>
+            <a href="https://www.linkedin.com/in/svetlana-demkovich-aab11038/" target="_blank"><i
+                    class="fab fa-fw fa-2x fa-linkedin"></i></a>
+            <a href="https://github.com/sdemkovich" target="_blank"><i class="fab fa-fw fa-2x fa-github"></i></a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy;2020 Svetlana Demkovich</p>
+    </div>
 
-
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
