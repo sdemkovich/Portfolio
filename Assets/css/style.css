@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* body { 
+  background-image: url("../Images/ripples.png"); 
+   background-image: url("../Images/DSC_2833.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #464646; 
+} */
+.navbar {
+  padding: 0px 0px 0px 0px;
+  background: transparent;
+}
+.navbar-light .navbar-brand {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding: 10px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#homepage {
+  background-image: url("../Images/DSC_2833.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ 
+}
+.container {
+  /* position: absolute; */
+  /* margin: 20px; */
+  width: 100%;
+  background-color: white;
+  /* margin-top: 100px;
+  margin-bottom: 30px;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif; */
+}
+
+.page-header {
+  color: #4aaaa5;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #cccccc; 
+  margin-bottom: 15px;
+}
+
+.About-section {
+  /* background-color: #ffffff; */
+}
+.form-group{
+ 
+}
+.img-thumbnail {
+  /* margin-right: 15px; */
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
+.btn-primary {
+  height: 60px;
+  width: 110px;
+  background-color: #4aaaa5;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.image {
+  /* margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  width: 90%; */
+}
+
+#InputMessage1 {
+  height: 100px;
+  text-align: left;
+  vertical-align: top;
+  
+}
+.footer {
+  /* position: sticky; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;;
+  color: #676d71;
+  text-align: center;
+  padding: 20px;
+  border-top: 10px solid;
+  border-color: #4aaaa5;
+}
