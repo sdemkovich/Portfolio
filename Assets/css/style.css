@@ -5,9 +5,7 @@
 .navbar {
   padding: 0px 0px 0px 0px;
 }
-.bg-light{
-  /* background-color: transparent !important; */
-}
+
 .navbar-light .navbar-brand {
   color: #ffffff;
   background-color: #4aaaa5;
@@ -23,7 +21,7 @@
 }
 .jumbotron-fluid {
   height: 800px;
-  background-image: url("../Images/DSC_2833.jpg");
+  background-image: url("../Images/jb.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -48,14 +46,12 @@
 }
 
 .container {
-  /* position: absolute; */
-  /* margin: 20px; */
   width: 100%;
   background-color: white;
-  /* margin-top: 100px;
+  /* margin-top: 100px; */
   margin-bottom: 30px;
   padding: 40px;
-  font-family: Arial, Helvetica, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-header {
@@ -69,38 +65,34 @@
   margin-bottom: 15px;
 }
 
-.About-section {
-  /* background-color: #ffffff; */
+.btn-outline-info {
+margin-top: 10px;
+margin-right: 20px;
 }
-.form-group{
- 
+.card {
+  /* width: 19rem; */
+  height: 25rem;
+  margin-top: 20px;
+  border-color: lightblue;
+  border-width: 3px;
+  border-style: outset;
 }
-
-
-.btn-primary {
-  height: 60px;
-  width: 110px;
-  background-color: #4aaaa5;
-  padding: 10px;
-  margin-top: 10px;
+.card-img-top {
+  height: 200px;
 }
-
-.image {
-  /* margin-top: 20px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  width: 90%; */
+.card-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
 }
-
-#InputMessage1 {
-  height: 100px;
-  text-align: left;
-  vertical-align: top;
-  
+.card-text {
+  height: 50px;
+}
+#contact {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
 }
 .footer {
-  /* position: sticky; */
   left: 0;
   bottom: 0;
   width: 100%;

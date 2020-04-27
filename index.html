@@ -8,7 +8,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Assets/css/style.css">
@@ -50,7 +50,6 @@
             </div>
         </div>
     </div>
-
     <!-- About -->
     <section>
         <div class="container" id="about">
@@ -71,7 +70,7 @@
                         and started new chapter of my life. We had lived in New York for several year until my husband
                         fell in love with Washington nature and we related to Seattle in 2014.
                     </p>
-                    <BR CLEAR="left" />
+                    <!-- <BR CLEAR="left" /> -->
                     <p>
                         I've been an accoutnant for all my life. However, recently decided to switch my career path
                         and study Web development. I'm hopefull to sucseed in this field as well as I sucseed in
@@ -90,31 +89,50 @@
                     <div class="page-header">Portfolio</div>
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card">
                                 <img class="card-img-top" src="./Assets/Images/Recipe Master.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Recipe Master</h5>
-                                    <p class="card-text">As a user, I want to make meals with the food I have at home,
-                                        so that I can save money, reduce waste, and eat healthy.</p>
+                                    <p class="card-text">User can search recipes and make meals with the food he/she has at home</p>
                                     <a href="https://github.com/sdemkovich/Recipe-Master" target="_blank"
-                                        class="btn btn-outline-info" data-toggle="tooltip"
-                                        title="View Source!"><i class="fas fa-fw fa-2x fa-external-link-alt"></i></a>
+                                        class="btn btn-outline-info" data-toggle="tooltip" title="View Source!"><i
+                                            class="fas fa-2x fa-external-link-alt"></i></a>
                                     <a href="https://sdemkovich.github.io/Recipe-Master/" target="_blank"
-                                        class="btn btn-outline-info" data-toggle="tooltip"
-                                        title="View Online!">
-                                        <i class="fab fa-fw fa-2x fa-github"></i></a>
-
+                                        class="btn btn-outline-info" data-toggle="tooltip" title="View Online!">
+                                        <i class="fab fa-2x fa-github"></i></a>
                                 </div>
                             </div>
-                            <!-- <img src="./Assets/Images/Image1.jpg" alt="Image1" class="image"> -->
-                        </div>
-                        <div class="col-12col-md-4">
-                            <img src="./Assets/Images/Image2.jpg" alt="Image2" class="image">
                         </div>
                         <div class="col-12 col-md-4">
-                            <img src="./Assets/Images/Image3.jpg" alt="Image3" class="image">
+                            <div class="card">
+                                <img class="card-img-top" src="./Assets/Images/Password_Generator.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Password Generator</h5>
+                                    <p class="card-text">User can generate password from random password based on selected criteria</p>
+                                    <a href="https://github.com/sdemkovich/Password-Generator" target="_blank"
+                                        class="btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="View Source!"><i
+                                            class="fas fa-2x fa-external-link-alt"></i></a>
+                                    <a href="https://sdemkovich.github.io/Password-Generator/" target="_blank"
+                                        class="btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="View Online!">
+                                        <i class="fab fa-2x fa-github"></i></a>
+                                </div>
+                            </div>
                         </div>
-
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="./Assets/Images/Coding_Quiz.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coding Quiz</h5>
+                                    <p class="card-text">Timed Quiz that stores high scores</p>
+                                    <a href="https://github.com/sdemkovich/Code-Quiz" target="_blank"
+                                        class="btn btn-outline-info" data-toggle="tooltip" title="View Source!"><i
+                                            class="fas fa-2x fa-external-link-alt"></i></a>
+                                    <a href="https://sdemkovich.github.io/Code-Quiz/#" target="_blank"
+                                        class="btn btn-outline-info" data-toggle="tooltip" title="View Online!">
+                                        <i class="fab fa-2x fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,12 +141,20 @@
     <!-- Contact -->
     <section>
         <div class="container" id="contact">
-            <h4>Contact me:</h4>
-            <!-- <p>Phone: 347-420-7866</p> -->
-            <a href="mailto:svetlana.demkovich@gmail.com"><i class="fas fa-fw fa-2x fa-envelope-square"></i></a>
-            <a href="https://www.linkedin.com/in/svetlana-demkovich-aab11038/" target="_blank"><i
-                    class="fab fa-fw fa-2x fa-linkedin"></i></a>
-            <a href="https://github.com/sdemkovich" target="_blank"><i class="fab fa-fw fa-2x fa-github"></i></a>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h4>Contact me:</h4>
+                    <br>
+                    <!-- <p>Phone: 347-420-7866</p> -->
+                    <a href="mailto:svetlana.demkovich@gmail.com"><i class="fas fa-fw fa-2x fa-envelope-square"></i></a>
+                    <a href="https://www.linkedin.com/in/svetlana-demkovich-aab11038/" target="_blank"><i
+                            class="fab fa-fw fa-2x fa-linkedin"></i></a>
+                    <a href="https://github.com/sdemkovich" target="_blank"><i
+                            class="fab fa-fw fa-2x fa-github"></i></a>
+                    <a href="https://sdemkovich.github.io/resume/" target="_blank"><i
+                            class="fas fa-fw fa-2x fa-file-alt"></i></a>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Footer -->
@@ -136,6 +162,7 @@
         <p>&copy;2020 Svetlana Demkovich</p>
     </div>
 
+    <!-- jQuery for Bootstrap Toolip -->
     <script>
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
@@ -143,10 +170,7 @@
     </script>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <!-- then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
