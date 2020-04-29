@@ -8,6 +8,13 @@
 - Font Awesome - to get icons
 - Google Fonts - to get desirable fonts
 
-### Note
-I connected this portfolio to my current LinkedIn profile. I will whether update the current one or create a new profile closer to the end.
+### Links:
+[Porfolio](https://github.com/sdemkovich/Portfolio)
+[GitHub repo](https://github.com/sdemkovich/Portfolio)
+
+
+#### Note
+* I connected this portfolio to my current LinkedIn profile. I will whether update the current one or create a new profile closer to the end.
+* I also would like to work more on website design, to implement new CSS frameworks
+* I pinned projects, but some of them are incompleted. I'm still working on those to finalize them.
 
