@@ -46,12 +46,10 @@
 }
 .container {
   width: 100%;
-  background-color: white;
-  /* margin-top: 100px; */
-  /* margin-bottom: 30px; */
+  border-color: white;
+  border-width: 2px;
   padding: 40px;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  /* background-: transparent; */
+  background: transparent;
 }
 
 .section {
@@ -67,7 +65,7 @@
   font-size: 50px;
   border-bottom-style: solid;
   border-width: 1px;
-  border-color: #cccccc;
+  border-color: white;
   margin-bottom: 15px;
   overflow: auto;
 }
@@ -76,7 +74,11 @@
   font-size: 22px;
   text-align: justify;
 }
-
+.imageAbout {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
 .btn-outline-info {
   margin-top: 10px;
   margin-right: 20px;
@@ -103,6 +105,14 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: small;
 }
+.card-contact {
+  height: 9rem;
+  background-color: rgb(236, 217, 192)
+  /* border-color: white;
+  border-width: 3px;
+  border-style: solid; */
+
+}
 .footer {
   left: 0;
   bottom: 0;
@@ -116,8 +126,4 @@
   border-top: 10px solid;
   border-color: #4aaaa5;
 }
-.imageAbout {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 5px;
-}
+
