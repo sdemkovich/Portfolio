@@ -11,6 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/css/style.css">
     <title>Svetlana Demkovich: Home Page</title>
 </head>
@@ -18,7 +20,7 @@
 <body>
     <!-- Start Nav -->
     <nav class="navbar sticky-top navbar-expand-lg pr-md-3 pl-md-3 navbar-light bg-light">
-        <a class="navbar-brand" href="#homepage">Svetlana Demkovich</a>
+        <a class="navbar-brand" href="#jumbotron-section">Svetlana Demkovich</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,24 +41,22 @@
     </nav>
     <!-- End Nav -->
     <!-- Jumbothron -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container" id="homepage">
-            <div class="row">
-                <div class="col-12 md-4">
-                    <img src="./Assets/Images/Sveta.jpg" alt="Sveta" class="img-thumbnail">
-                    <p>Svetlana Demkovich</p>
-                    <p>Full Stack Web Developer Student at UW Bootcamp 2020 Class</p>
-                </div>
+    <div class="jumbotron" id="jumbotron-section">
+        <div class="row" id="homepage">
+            <div class="col-12 About-section">
+                <img src="./Assets/Images/Sveta.jpg" alt="Sveta" class="img-thumbnail">
+                <p>I am Svetlana</p>
+                <h2>I like to design and code</h2>
             </div>
         </div>
     </div>
     <!-- About -->
-    <section>
+    <section class="section">
         <div class="container" id="about">
             <div class="row">
                 <div class="col-12 About-section">
                     <div class="page-header">About Me</div>
-                    <p>
+                    <p class="bio"><img class="imageAbout" src="./Assets/Images/fab-lentz-mRMQwK513hY-unsplash.jpg">
                         My name is Svetlana (Sveta) Demkovich. I was born and raised in Uzbekistan.
                         In 1992 my family decided to relocate to Belarus, my father's motherland,
                         and after several years we moved back to Uzbekistan. During my school years
@@ -64,14 +64,13 @@
                         the destiny is unpredicable. We returned to Belarus where I ended up graduating
                         finance college and university.
                     </p>
-                    <p>
+                    <p class="bio">
                         In 2009 there was another swing in my life, we won a green card after
                         half a year of marriage and decided to relocated to the US. And in 2010 we landed in JFK
                         and started new chapter of my life. We had lived in New York for several year until my husband
                         fell in love with Washington nature and we related to Seattle in 2014.
                     </p>
-                    <!-- <BR CLEAR="left" /> -->
-                    <p>
+                    <p class="bio">
                         I've been an accoutnant for all my life. However, recently decided to switch my career path
                         and study Web development. I'm hopefull to sucseed in this field as well as I sucseed in
                         accounting.
@@ -79,10 +78,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <br>
-    <!-- Portfolio  -->
-    <section>
+        <br>
+        <!-- Portfolio  -->
         <div class="container" id="portfolio">
             <div class="row">
                 <div class="col-12 About-section">
@@ -93,7 +90,8 @@
                                 <img class="card-img-top" src="./Assets/Images/Recipe Master.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Recipe Master</h5>
-                                    <p class="card-text">User can search recipes and make meals with the food he/she has at home</p>
+                                    <p class="card-text">User can search recipes and make meals with the food he/she has
+                                        at home</p>
                                     <a href="https://github.com/sdemkovich/Recipe-Master" target="_blank"
                                         class="btn btn-outline-info" data-toggle="tooltip" title="View Source!"><i
                                             class="fas fa-2x fa-external-link-alt"></i></a>
@@ -105,15 +103,18 @@
                         </div>
                         <div class="col-12 col-md-4">
                             <div class="card">
-                                <img class="card-img-top" src="./Assets/Images/Password_Generator.png" alt="Card image cap">
+                                <img class="card-img-top" src="./Assets/Images/Password_Generator.png"
+                                    alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Password Generator</h5>
-                                    <p class="card-text">User can generate password from random password based on selected criteria</p>
+                                    <p class="card-text">User can generate random password based on
+                                        selected criteria</p>
                                     <a href="https://github.com/sdemkovich/Password-Generator" target="_blank"
-                                        class="btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="View Source!"><i
-                                            class="fas fa-2x fa-external-link-alt"></i></a>
+                                        class="btn btn-outline-info" data-toggle="tooltip" data-placement="top"
+                                        title="View Source!"><i class="fas fa-2x fa-external-link-alt"></i></a>
                                     <a href="https://sdemkovich.github.io/Password-Generator/" target="_blank"
-                                        class="btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="View Online!">
+                                        class="btn btn-outline-info" data-toggle="tooltip" data-placement="top"
+                                        title="View Online!">
                                         <i class="fab fa-2x fa-github"></i></a>
                                 </div>
                             </div>
@@ -136,10 +137,10 @@
                     </div>
                 </div>
             </div>
-    </section>
-    <br>
-    <!-- Contact -->
-    <section>
+        </div>
+        <br>
+        <!-- Contact -->
+        <!-- <section class="section"> -->
         <div class="container" id="contact">
             <div class="row">
                 <div class="col-12 col-md-6">
