@@ -1,4 +1,4 @@
-# Portfolio (https://sdemkovich.github.io/Portfolio/)
+# [Portfolio](https://sdemkovich.github.io/Portfolio/)
 
 ![Svetlana Demkovich Home Page Screenshot](/Assets/Images/Svetlana_Demkovich_Homepage_Screenshot.png)
 
