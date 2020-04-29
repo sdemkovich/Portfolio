@@ -9,8 +9,8 @@
 - Google Fonts - to get desirable fonts
 
 ### Links:
-[Porfolio](https://github.com/sdemkovich/Portfolio)
-[GitHub repo](https://github.com/sdemkovich/Portfolio)
+l. [Porfolio](https://github.com/sdemkovich/Portfolio)
+l. [GitHub repo](https://github.com/sdemkovich/Portfolio)
 
 
 #### Note
