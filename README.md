@@ -9,7 +9,7 @@
 - Google Fonts - to get desirable fonts
 
 ### Links:
-1. [Porfolio](https://github.com/sdemkovich/Portfolio)
+1. [Porfolio](https://sdemkovich.github.io/Portfolio/)
 2. [GitHub repo](https://github.com/sdemkovich/Portfolio)
 
 
